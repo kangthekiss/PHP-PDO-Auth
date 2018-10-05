@@ -1,0 +1,55 @@
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+body {
+	/*background-color: rgba(215, 215, 211, 0.71);*/
+	font-family: monospace;
+	font-size: 1.2rem;
+}
+.container {
+	/* padding: 25px; */
+	margin-top: 35px;
+	width: 55%;
+}
+.header {
+	height: 60px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 5px 5px rgb(191, 191, 191);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.header a {
+	text-decoration: none;
+}
+.brand {
+	padding-left: 100px;
+	padding-top: 19px;
+}
+.brand a {
+	color: rgb(103, 101, 101);
+	font-weight: bold;
+}
+.menu {
+	padding-left: 65%;
+	padding-top: 19px;
+}
+.menu a {
+	margin-right: 30px;
+	color: rgb(139, 139, 139);
+	font-weight: bold;
+	padding-bottom: 18px;
+}
+.menu a:hover{
+	color: rgb(185, 179, 179);
+	border-bottom: 3px solid rgb(110, 110, 110);
+}
+.alert-danger {
+	color: rgb(250, 30, 83);
+}
+h3 {
+	color: rgb(27, 95, 235);
+}
+label {
+	color: rgb(5, 5, 5);
+}
